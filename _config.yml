@@ -1,5 +1,4 @@
 # Site Settings
-title                    : ""
 name                     : "Sakshi Sen"
 description              : "B.Tech CSE | AI/ML • Full-Stack • Cloud | RTU 2027"
 url                      : "https://sakshisen12.github.io"
@@ -10,12 +9,12 @@ github_username          : "Sakshisen12"
 # Site Author
 author:
   name             : "Sakshi Sen"
-  avatar           : "images/profile.png"
+  avatar           : "/images/profile.png"
   bio              : "B.Tech CSE @ RTU | CGPA: 8.87 | AI/ML • DevOps • Full-Stack"
   location         : "Kota, Rajasthan, India"
   email            : "shakshisen35600@gmail.com"
   github           : "Sakshisen12"
-  linkedin         : "sakshi-sen"
+  linkedin         : "www.linkedin.com/in/sakshi-sen123"
   uri              : "https://sakshisen12.github.io"
 
 # Reading Files
