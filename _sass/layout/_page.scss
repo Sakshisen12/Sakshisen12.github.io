@@ -399,10 +399,3 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
-.author__avatar img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 50%; /* perfect circle instead of oval */
-}
