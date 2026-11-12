@@ -53,3 +53,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# AI assistant (Vercel serverless endpoint) - replace after deploying chat-api
+chat_api_url : "https://YOUR-CHAT-API.vercel.app/api/chat"
+assistant_name : "Sakshi's AI Assistant"

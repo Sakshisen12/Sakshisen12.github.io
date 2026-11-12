@@ -9,7 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-[📄 Download CV (PDF)](/files/Sakshi_Sen-CV.pdf)
+<p><a class="btn btn--primary" href="/files/Sakshi_Sen-CV.pdf" download>📄 Download CV (PDF)</a></p>
+
+<iframe src="/files/Sakshi_Sen-CV.pdf" style="width:100%;height:85vh;border:1px solid #ddd;border-radius:8px;" title="Sakshi Sen CV">
+  <p>Your browser can't display the PDF. <a href="/files/Sakshi_Sen-CV.pdf">Open it here</a>.</p>
+</iframe>
+
+<details>
+<summary><b>Read CV as text</b></summary>
 
 Education
 ======
@@ -56,3 +63,5 @@ Achievements & activities
 * Participated in multiple national and university-level hackathons (AI, Web Development, Cloud Computing)
 * Open-source contributor, GirlScript Summer of Code (GSSoC)
 * Solved 200+ DSA problems on LeetCode
+
+</details>
