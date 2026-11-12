@@ -1,15 +1,13 @@
 /* ===== Header: name on the left, menu links on the right ===== */
 .greedy-nav .visible-links {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-left: 0;
-}
-.greedy-nav .visible-links li {
-  display: block;
+  display: table;
+  margin-left: auto;          /* menu links go to the right */
 }
 .greedy-nav .visible-links li:first-child {
-  margin-right: auto;      /* pushes the menu to the right */
+  position: absolute;         /* name sits on the far left */
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 1.15em;
 }
 
@@ -25,21 +23,24 @@
 /* ===== Page content: shift to the right (desktop) ===== */
 @media (min-width: 1024px) {
   .page {
-    padding-left: 3em;     /* increase to move content further right */
-    padding-right: 1em;    /* theme default leaves a big empty gap here */
-    /* keeps the footer below the sidebar even on short pages */
-    min-height: calc(100vh - 12em);
+    padding-left: 3em;        /* increase to move content further right */
+    padding-right: 1em;       /* theme default leaves a big empty gap here */
+    min-height: calc(100vh - 12em);   /* keeps footer below the sidebar */
   }
 }
 
-/* ===== Footer: only at the end of the page, not pinned to the screen ===== */
-.page__footer {
-  position: relative !important;
-  bottom: auto !important;
-  float: none;
-  margin-top: 0;
-  clear: both;
+/* ===== Footer: always at the very end of the page ===== */
+html {
+  position: relative;
 }
-html body {
-  padding-bottom: 0 !important;   /* removes the blank space under the footer */
+@media (min-width: 769px) {
+  .page__footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 !important;
+    float: none !important;
+  }
 }
