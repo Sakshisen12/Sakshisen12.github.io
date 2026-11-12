@@ -44,3 +44,19 @@ html {
     float: none !important;
   }
 }
+
+/* ===== Footer look: centered, minimal ===== */
+.page__footer {
+  text-align: center;
+}
+.sa-footer__links a {
+  margin: 0 14px;
+  font-weight: 600;
+  font-size: 0.95em;
+  display: inline-block;
+}
+.sa-footer__copy {
+  margin-top: 8px;
+  font-size: 0.8em;
+  opacity: 0.85;
+}
