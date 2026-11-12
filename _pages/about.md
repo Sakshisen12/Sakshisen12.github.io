@@ -5,12 +5,14 @@ author_profile: true
 ---
 
 <div style="background: linear-gradient(135deg, #667eea22, #764ba222); border-left: 4px solid #667eea; padding: 16px 20px; border-radius: 8px; margin-bottom: 24px;">
-  <p style="margin:0; font-size: 1.05em;">🎓 Final-year B.Tech CSE student at <strong>Rajasthan Technical University</strong> with a CGPA of <strong>8.87/10</strong>. I build AI-powered products, cloud infrastructure, and full-stack applications — end to end.</p>
+  <p style="margin:0; font-size: 1.05em;">🎓 Results-driven Computer Science Engineering undergraduate at <strong>Rajasthan Technical University</strong> with a CGPA of <strong>8.94/10</strong>. I build AI-powered products, cloud infrastructure, and full-stack applications — end to end.</p>
 </div>
 
-I have hands-on industry experience across **AI/ML**, **DevOps on Azure**, and **full-stack web development**. From deploying scalable cloud infrastructure with Azure VMSS and Application Gateway, to building LLM-powered apps using Google Gemini and OpenAI APIs — I focus on production-ready, real-world systems.
+I have hands-on experience across **AI/ML**, **full-stack web development**, and **cloud & DevOps on Microsoft Azure**. I build scalable applications with Python, React.js, FastAPI and modern AI frameworks (RAG, LangChain, Gemini, Groq), and I'm looking for **Software Engineering, AI/ML, or Cloud roles**.
 
-Currently contributing to open-source through **GirlScript Summer of Code (GSSoC)** and actively solving **DSA problems on LeetCode (150+)**.
+Contributing to open source through **GirlScript Summer of Code (GSSoC)** and have solved **200+ DSA problems on LeetCode**.
+
+[📄 Download my CV](/files/Sakshi_Sen-CV.pdf)
 
 ---
 
@@ -19,18 +21,18 @@ Currently contributing to open-source through **GirlScript Summer of Code (GSSoC
 | Area | Technologies |
 |------|-------------|
 | **Languages** | C, C++, Java, Python |
-| **Web Dev** | HTML, CSS, JavaScript, React.js, Next.js 14, Tailwind CSS |
+| **Web Dev** | HTML, CSS, JavaScript, React.js, Tailwind CSS |
 | **Backend** | Node.js, Express.js, Flask, FastAPI |
 | **Databases** | MongoDB, MySQL |
-| **AI/ML & GenAI** | ML, Deep Learning, NLP, Transformers, Scikit-learn, NumPy, Pandas |
-| **Cloud & DevOps** | Microsoft Azure, GitHub Actions, CI/CD, Linux, Bash |
-| **APIs & Tools** | Google Gemini API, OpenAI API, Git, GitHub, VS Code, Jupyter |
+| **AI/ML & GenAI** | Machine Learning, Deep Learning, NLP, Transformers, RAG, LangChain, Scikit-learn, NumPy, Pandas, Matplotlib |
+| **Cloud & DevOps** | Microsoft Azure, Git, GitHub Actions, CI/CD, Docker, Linux, Bash, Vercel, Render |
+| **APIs & Tools** | Google Gemini API, OpenAI API, Groq API, GitHub, VS Code, Jupyter Notebook |
 
 ---
 
 ## 🏆 Achievements
 
-- 🟨 **150+ DSA problems** solved on LeetCode
+- 🟨 **200+ DSA problems** solved on LeetCode
 - 🌍 **GirlScript Summer of Code (GSSoC)** — Open source contributor
 - 🏅 Participated in multiple **national & university-level hackathons** focused on AI, Web Dev & Cloud
 - ⭐ **Excellent performance rating** — Getraise Pvt. Ltd. AI/ML Internship
