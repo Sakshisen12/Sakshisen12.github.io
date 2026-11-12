@@ -1,5 +1,16 @@
+/* ===== Header: name on the left, menu links on the right ===== */
 .greedy-nav .visible-links {
-  margin-left: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 0;
+}
+.greedy-nav .visible-links li {
+  display: block;
+}
+.greedy-nav .visible-links li:first-child {
+  margin-right: auto;      /* pushes the menu to the right */
+  font-size: 1.15em;
 }
 
 .greedy-nav a {
@@ -9,10 +20,23 @@
 
 .greedy-nav .visible-links a:before {
   background: #667eea;
-} 
+}
 
-
-/* shift page content a little to the right (desktop) */
+/* ===== Page content: shift to the right (desktop) ===== */
 @media (min-width: 1024px) {
-  .page { padding-left: 2.5em; }
+  .page {
+    padding-left: 3em;     /* increase to move content further right */
+    padding-right: 1em;    /* theme default leaves a big empty gap here */
+  }
+}
+
+/* ===== Footer: only at the end of the page, not pinned to the screen ===== */
+.page__footer {
+  position: relative !important;
+  bottom: auto !important;
+  float: none;
+  margin-top: 3em;
+}
+body {
+  padding-bottom: 0;
 }
