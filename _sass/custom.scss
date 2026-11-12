@@ -27,8 +27,6 @@
   .page {
     padding-left: 3em;     /* increase to move content further right */
     padding-right: 1em;    /* theme default leaves a big empty gap here */
-    /* keeps the footer below the sidebar even on short pages */
-    min-height: calc(100vh - 12em);
   }
 }
 
@@ -37,9 +35,8 @@
   position: relative !important;
   bottom: auto !important;
   float: none;
-  margin-top: 0;
-  clear: both;
+  margin-top: 3em;
 }
-html body {
-  padding-bottom: 0 !important;   /* removes the blank space under the footer */
+body {
+  padding-bottom: 0;
 }
