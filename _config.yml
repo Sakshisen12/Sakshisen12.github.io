@@ -61,3 +61,5 @@ defaults:
 chat_api_url : "https://sakshi-chat-api-dusky.vercel.app/api/chat"
 
 assistant_name : "Sakshi's AI Assistant"
+atom_feed:
+  hide: true
