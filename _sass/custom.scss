@@ -29,20 +29,19 @@
   }
 }
 
-/* ===== Footer: always at the very end of the page ===== */
-html {
-  position: relative;
+/* ===== Footer: at the very end of the page, no blank space below ===== */
+.page__footer {
+  position: relative !important;
+  bottom: auto !important;
+  float: none !important;
+  clear: both;
+  margin: 0 !important;
 }
-@media (min-width: 769px) {
-  .page__footer {
-    position: absolute !important;
-    bottom: 0 !important;
-    left: 0;
-    right: 0;
-    width: 100%;
-    margin: 0 !important;
-    float: none !important;
-  }
+/* the theme's script adds a bottom margin to <body> equal to the footer height;
+   that was the white strip, so cancel it */
+html body {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 /* ===== Footer look: centered, minimal ===== */
