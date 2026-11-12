@@ -10,3 +10,9 @@
 .greedy-nav .visible-links a:before {
   background: #667eea;
 } 
+
+
+/* shift page content a little to the right (desktop) */
+@media (min-width: 1024px) {
+  .page { padding-left: 2.5em; }
+}

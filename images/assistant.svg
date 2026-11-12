@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 300" width="120" height="300">
+  <!-- hair back -->
+  <path d="M34 52 C30 20 90 20 86 52 L90 118 C84 126 36 126 30 118 Z" fill="#1b1b2f"/>
+  <!-- legs -->
+  <rect x="44" y="176" width="14" height="100" rx="6" fill="#2b2b44"/>
+  <rect x="62" y="176" width="14" height="100" rx="6" fill="#2b2b44"/>
+  <!-- shoes -->
+  <ellipse cx="50" cy="282" rx="14" ry="7" fill="#111"/>
+  <ellipse cx="70" cy="282" rx="14" ry="7" fill="#111"/>
+  <!-- arms -->
+  <path d="M38 92 C26 120 28 150 32 168" stroke="#2b2b44" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M82 92 C94 120 92 150 88 168" stroke="#2b2b44" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <circle cx="32" cy="172" r="6" fill="#f2c9a5"/><circle cx="88" cy="172" r="6" fill="#f2c9a5"/>
+  <!-- torso / jacket -->
+  <path d="M38 84 H82 L86 182 H34 Z" fill="#2b2b44"/>
+  <path d="M60 84 V182" stroke="#667eea" stroke-width="3"/>
+  <!-- neck -->
+  <rect x="54" y="68" width="12" height="18" rx="5" fill="#f2c9a5"/>
+  <!-- head -->
+  <ellipse cx="60" cy="50" rx="21" ry="24" fill="#f2c9a5"/>
+  <!-- fringe -->
+  <path d="M38 48 C40 24 80 24 82 48 C70 38 52 38 38 48 Z" fill="#1b1b2f"/>
+  <!-- face -->
+  <circle cx="52" cy="54" r="2.2" fill="#222"/><circle cx="68" cy="54" r="2.2" fill="#222"/>
+  <path d="M54 63 Q60 68 66 63" stroke="#b5524a" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
