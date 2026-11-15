@@ -59,3 +59,14 @@ html body {
   font-size: 0.8em;
   opacity: 0.85;
 }
+
+/* ===== Profile picture: always a perfect circle ===== */
+.author__avatar img {
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  aspect-ratio: 1 / 1;      /* forces a square box */
+  object-fit: cover;        /* crops the photo instead of squashing it */
+  object-position: center top;   /* keeps the face in view */
+  border-radius: 50%;
+}
