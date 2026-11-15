@@ -69,4 +69,5 @@ html body {
   object-fit: cover;        /* crops the photo instead of squashing it */
   object-position: center top;   /* keeps the face in view */
   border-radius: 50%;
+  margin-top: 2.2em;        /* moves the photo down, away from the header name */
 }
