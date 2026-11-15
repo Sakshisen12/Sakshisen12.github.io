@@ -70,4 +70,5 @@ html body {
   object-position: center top;   /* keeps the face in view */
   border-radius: 50%;
   margin-top: 2.2em;        /* moves the photo down, away from the header name */
+  margin-left: -1em;        /* moves the photo to the left (more negative = further left) */
 }
